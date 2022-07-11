@@ -1,0 +1,293 @@
+@font-face {
+  font-family: "Whitney";
+  src: url("../fonts/HCo_Whitney_Pro/OpenType/Whitney-Light-Pro.otf")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  width: 944px;
+  margin: 0 auto;
+}
+
+.navigation {
+  min-height: 72px;
+  width: 100vw;
+  background: #37384c;
+  position: fixed;
+}
+
+.linesLogo {
+  margin-top: 100px;
+}
+
+.navigation img:hover {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 612px;
+  left: 0px;
+  background: #37384c;
+  background-image: url("../img/graphicElements/hero_background.svg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Whitney";
+  font-style: normal;
+  font-weight: 325;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+
+.goals {
+  display: inline-block;
+  width: 425px;
+  height: 67px;
+  font-family: "Whitney";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.64;
+  margin-bottom: 56px;
+}
+
+.buttonExpert {
+  height: 44px;
+  width: 192px;
+  background: #4a91f2;
+  box-shadow: 0px 1px 2px rgba(55, 56, 76, 0.16),
+    0px 4px 8px rgba(55, 56, 76, 0.08), 0px 8px 16px rgba(55, 56, 76, 0.04);
+  border-radius: 10px;
+  border-style: none;
+  text-transform: uppercase;
+  font-family: "Whitney";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+.buttonExpert:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.joinClients {
+  font-family: "Whitney";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #12263f;
+  opacity: 0.64;
+  margin-bottom: 42px;
+}
+
+.partnersWrapper {
+  margin: -27px auto 0 auto;
+  padding-top: 36px;
+  width: 944px;
+  min-height: 248px;
+  background: #f9fbfd;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+nav img {
+  margin-top: 22px;
+  margin-left: 104px;
+}
+
+.hero {
+  padding-top: 76px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logosRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 784px;
+  height: 57px;
+}
+
+.logosRow1 {
+  padding-left: 89px;
+  padding-right: 80px;
+}
+
+.logosRow2 {
+  padding-left: 85px;
+  padding-right: 80px;
+}
+
+.logoContainer {
+  margin: 0px 64px 0px 0px;
+  height: 32px;
+  overflow: hidden;
+}
+
+.logoContainerRow2 {
+  margin: 0px 60px 0px 0px;
+  height: 32px;
+  overflow: hidden;
+}
+
+.logoContainerSEB,
+.logoContainerVybe {
+  margin-right: 0px;
+}
+
+.logoContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logoContainerRow2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logoContainer:hover,
+.logoContainerRow2:hover {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.titleChooseSalv {
+  margin-top: 87px;
+  margin-bottom: 40px;
+  font-family: "Whitney";
+  font-style: normal;
+  font-weight: 325;
+  font-size: 48px;
+  text-align: center;
+  color: #e0820b;
+}
+
+.SalvBenefits {
+  display: block;
+  width: 624px;
+  height: 82px;
+  margin: 0 auto;
+  margin-bottom: 126px;
+  font-family: "Whitney";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #37384c;
+}
+
+.footer {
+  background: #37384c;
+  min-height: 64px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .logosRow1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .logosRow2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    max-width: 480px;
+  }
+  .linesLogo {
+    margin-top: 10px;
+  }
+  .logoContainer {
+    margin: 0px 40px 0px 0px;
+    height: 32px;
+  }
+  .logoContainerRow2 {
+    margin: 10px 40px 0px 0px;
+    height: 32px;
+  }
+  .logosRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 57px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .SalvBenefits {
+    width: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 380px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .goals {
+    font-size: 20px;
+  }
+  .titleChooseSalv {
+    font-size: 30px;
+  }
+  .SalvBenefits {
+    display: block;
+    width: 360px;
+    font-size: 12px;
+    padding: 5px;
+  }
+}
